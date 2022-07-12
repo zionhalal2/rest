@@ -1,0 +1,297 @@
+#square_cursor {
+  position: absolute;
+  left: 1541px;
+  top: 550px;
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  cursor: pointer;
+}
+#square_position {
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+#triengle_position {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid grey;
+}
+#triengle_cursor {
+  position: absolute;
+  top: 550px;
+  left: 900px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid red;
+}
+h1 {
+  color: beige;
+  text-align: center;
+}
+
+.app {
+  display: none;
+}
+#start {
+  position: absolute;
+  top: 45%;
+  left: 37.5%;
+  width: 25%;
+  height: 10%;
+  background-color: aqua;
+}
+body {
+  background-color: rgb(53, 53, 55);
+}
+
+#circle_cursor {
+  position: absolute;
+  top: 550px;
+  left: 350px;
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 50%;
+}
+#circle_position {
+  position: absolute;
+  top: 250px;
+  left: 1502px;
+  width: 200px;
+  height: 200px;
+  background: grey;
+  border-radius: 50%;
+}
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #505050;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #7245db;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+@media screen and (max-width: 390px) {
+  body {
+    background: #7245db;
+  }
+
+  #square_cursor {
+    position: absolute;
+    left: 40%;
+    top: 450px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    cursor: pointer;
+  }
+  #square_position {
+    position: absolute;
+    left: 10%;
+    top: 250px;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    cursor: pointer;
+  }
+  #circle_cursor {
+    position: absolute;
+    top: 450px;
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+  }
+  #circle_position {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 50%;
+  }
+  #triengle_position {
+    position: absolute;
+    top: 250px;
+    left: 70%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid grey;
+  }
+  #triengle_cursor {
+    position: absolute;
+    top: 450px;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+  .menu {
+    width: 390px;
+  }
+}
+
+  @media screen and (min-device-width: 844px) and (max-device-width: 1000px){
+   body {
+    background: #57f70c;
+  }
+
+  #clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    width: 15%;
+    top: 10%;
+  }
+
+  #clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #505050;
+    display: inline-block;
+  }
+
+  #clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #7245db;
+    display: inline-block;
+  }
+
+  #square_cursor {
+    position: absolute;
+    left: 45%;
+    top: 250px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    cursor: pointer;
+  }
+  #square_position {
+    position: absolute;
+    left: 18%;
+    top: 80px;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    cursor: pointer;
+  }
+  #circle_cursor {
+    position: absolute;
+    top: 250px;
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+  }
+  #circle_position {
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 50%;
+  }
+  #triengle_position {
+    position: absolute;
+    top: 80px;
+    left: 75%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid grey;
+  }
+  #triengle_cursor {
+    position: absolute;
+    top: 250px;
+    left: 18%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+}
